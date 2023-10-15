@@ -1,0 +1,27 @@
+@media (max-width: 599.98px) {
+  .header-nav {
+    &__list {
+      column-gap: 0px;
+    }
+  }
+}
+
+@media (max-width: 499.98px) {
+  .header-nav__button {
+    &-number {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 404.98px) {
+  .header__logo {
+    &-title {
+      font-size: 1rem;
+    }
+
+    &-text {
+      font-size: .75rem;
+    }
+  }
+}
